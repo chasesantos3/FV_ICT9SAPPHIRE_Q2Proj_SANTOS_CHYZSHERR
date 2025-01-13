@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romblon Recipes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero-section {
+      background-color: #f97716;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .carousel img {
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .category-section {
+      padding: 30px 20px;
+    }
+    .category-card img {
+      object-fit: cover;
+      height: 150px;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <h1>Welcome to Romblon Recipes</h1>
+    <p>Explore the rich flavors of Romblon's traditional dishes.</p>
+  </div>
+
+  <!-- Carousel -->
+  <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.ytimg.com/vi/vbiQEQoTO9o/sddefault.jpg" class="d-block w-100" alt="Ginataang Tulingan">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ginataang Tulingan</h5>
+          <p>A delicious traditional seafood dish from Romblon.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="https://travelistaph.com/wp-content/uploads/2024/03/binagol-copy-edited-1.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Binagol</h5>
+          <p>Sweet coconut-based delicacy you’ll love.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Placeholder Image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fresh Vegetables</h5>
+          <p>Experience Romblon's vibrant vegetable dishes.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Category Section -->
+  <div class="container category-section">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Seafood">
+          <div class="card-body">
+            <h5 class="card-title">Seafood</h5>
+            <p class="card-text">Explore the best seafood dishes of Romblon.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Desserts">
+          <div class="card-body">
+            <h5 class="card-title">Desserts</h5>
+            <p class="card-text">Indulge in sweet treats and traditional desserts.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Vegetables">
+          <div class="card-body">
+            <h5 class="card-title">Vegetables</h5>
+            <p class="card-text">Discover delicious vegetable-based dishes.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Snacks">
+          <div class="card-body">
+            <h5 class="card-title">Snacks</h5>
+            <p class="card-text">Romblon's delightful snacks and finger foods.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Drinks">
+          <div class="card-body">
+            <h5 class="card-title">Drinks</h5>
+            <p class="card-text">Refreshing beverages to complement your meals.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card category-card">
+          <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Meat">
+          <div class="card-body">
+            <h5 class="card-title">Meat</h5>
+            <p class="card-text">Hearty meat dishes that define Filipino cuisine.</p>
+            <a href="#" class="btn btn-primary">View Recipes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
